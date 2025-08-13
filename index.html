@@ -4,80 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sitio web en grupo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #1a1a1a;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            text-align: center;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        nav a:hover {
-            color: #ffcc00;
-        }
-        section {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        article {
-            background-color: white;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-        }
-        article h2 {
-            color: #1a1a1a;
-        }
-        footer {
-            background-color: #1a1a1a;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <header>
-        <h1>TecnoBlog</h1>
-        <p>Noticias y tendencias del mundo tecnológico</p>
+    <header class="">
+        <div class="logo">TecnoBlog</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="objetivos.html">Objetivos</a></li>
+                <li><a href="SitioWB.html">Opciones</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Noticias</a>
-        <a href="#">Reviews</a>
-        <a href="#">Contacto</a>
-    </nav>
 
     <section>
         <article>
             <h2>La nueva era de la Inteligencia Artificial</h2>
             <p>La IA está revolucionando la forma en que trabajamos, aprendemos y nos comunicamos. Grandes empresas están invirtiendo en el desarrollo de modelos más rápidos y precisos.</p>
         </article>
-
         <article>
             <h2>Avances en redes 6G</h2>
             <p>Mientras muchos países siguen implementando el 5G, ya se están desarrollando las bases para el 6G, que promete velocidades y capacidades de conexión nunca vistas.</p>
         </article>
-
         <article>
             <h2>Dispositivos flexibles: el futuro del hardware</h2>
             <p>Teléfonos y tablets plegables ya están en el mercado, pero los investigadores trabajan en pantallas totalmente flexibles que cambiarán la industria.</p>
@@ -85,8 +34,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 TecnoBlog - Todos los derechos reservados</p>
+        <div class="socials">
+            <a href="https://github.com/hefercotuc/sitio-web-en-grupo"><img src="./img/github.svg" alt="GitHub"></a>
+        </div>
+        <p>&copy; 2025 sitio web en grupo - Todos los derechos reservados.</p>
     </footer>
-    
 </body>
 </html>
