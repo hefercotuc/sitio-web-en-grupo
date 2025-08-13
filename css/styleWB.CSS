@@ -43,7 +43,6 @@ ol{
     color: white;
     display: inline-block;
     position: relative;
-    left: 400px;
     border-radius: 9px;
     box-shadow: 2px 2px 5px rgba(99, 8, 8, 4);
 }
